@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# Virtual environment
+venv/
+
+# Streamlit
+.streamlit/
+
+# Generated files
+.env
+output/
+txt/
+
+# Specific generated files
+*.csv_temp.csv
+*.png
