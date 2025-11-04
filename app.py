@@ -27,7 +27,7 @@ from source.ai_report_generator import generate_automatic_report
 from source.ai_dataset_comparer import compare_datasets
 
 # Set your Gemini API key
-GEMINI_API_KEY = "AIzaSyAwfDz6x32dWcXj55m8e8EW207oghUVTBc"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 
 st.set_page_config(layout="wide")
 st.title("AIDataHelper: Analisi Dati e Funzionalità AI")
