@@ -7,7 +7,7 @@ from ai_explainer import get_gemini_explanation
 from dataset.generate_sales_data import generate_sales_data
 from dataset.generate_temperature_data import generate_temperature_data
 
-GEMINI_API_KEY = "AIzaSyAwfDz6x32dWcXj55m8e8EW207oghUVTBc"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 
 def basic_statistics(file_name):
     file_path = os.path.join("dataset", file_name)
